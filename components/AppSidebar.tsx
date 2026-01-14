@@ -8,8 +8,6 @@ import {
   ChevronUp,
   Plus,
   Projector,
-  ChevronsUpDown,
-  ChevronsDown,
   ChevronDown,
 } from "lucide-react";
 import {
