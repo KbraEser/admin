@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 Admin Paneli
 
-## Getting Started
+Modern ve kullanıcı dostu bir admin paneli uygulaması. Next.js 16, TypeScript ve shadcn/ui ile geliştirilmiştir.
 
-First, run the development server:
+## ✨ Özellikler
+
+- 📊 **Dashboard**: Grafikler, istatistikler ve özet bilgiler
+- 💳 **Ödeme Yönetimi**: Ödeme işlemlerini görüntüleme ve yönetme
+- 👥 **Kullanıcı Yönetimi**: Kullanıcı listesi ve detay sayfaları
+- 🎨 **Modern UI**: shadcn/ui bileşenleri ile şık ve özelleştirilebilir arayüz
+- 🌙 **Dark Mode**: Sistem teması desteği ile karanlık/aydınlık mod
+- 📱 **Responsive**: Tüm cihazlarda mükemmel görünüm
+- 📈 **Grafikler**: Recharts ile interaktif veri görselleştirme
+
+## 🚀 Kurulum
+
+Projeyi klonlayın ve bağımlılıkları yükleyin:
+
+```bash
+npm install
+```
+
+Geliştirme sunucusunu başlatın:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Teknolojiler
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 16** - React framework
+- **TypeScript** - Tip güvenliği
+- **shadcn/ui** - Radix UI primitives üzerine kurulu özelleştirilebilir UI bileşen kütüphanesi
+- **Tailwind CSS** - Stil yönetimi
+- **Radix UI** - Erişilebilir ve kullanılabilir UI primitives (shadcn/ui tarafından kullanılıyor)
+- **Recharts** - Grafik kütüphanesi
+- **React Hook Form** - Form yönetimi
+- **Zod** - Şema validasyonu
+- **TanStack Table** - Veri tablosu
 
-## Learn More
+## 📦 Build
 
-To learn more about Next.js, take a look at the following resources:
+Production build oluşturmak için:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Lisans
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Bu proje özel kullanım içindir.
